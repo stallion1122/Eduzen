@@ -44,12 +44,13 @@ html, body{
     font-weight: 300;
     letter-spacing: 1px;
     color: #fff;
+    text-shadow: 0px 2px 2px #000;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: orange;
+    color: rgb(246, 138, 31);
 }
 
 
@@ -57,7 +58,6 @@ html, body{
     float: left;
     width: 150px;
     height: 150px;
-    border: solid 1px blue;
     padding: 0px 20px 0px 20px;
     margin-bottom: 10px;
 }
@@ -66,9 +66,9 @@ html, body{
     text-align: left;
     float: left;
     font-size: 30px;
-    font-family: "Arial Narrow";
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     position: relative;
-    padding: 25px 0px 30px 20px;
+    padding: 35px 0px 30px 20px;
 }
 
 .tpad{
@@ -78,14 +78,23 @@ html, body{
     padding-right: 30px;
 }
 
+.tpad1{
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
 .img-square{
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
+
+
 .sq-text{
+    font-family: "Helvetica Neue",Helvetica,Arial;
     text-align: left;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .header1{
@@ -103,6 +112,7 @@ a:hover{
 
 .testimonial{
     background-color: rgb(239, 234, 234); /*limestone*/
+    padding-bottom: 30px;
 }
 
 .img-test{
@@ -112,7 +122,9 @@ a:hover{
 }
 
 .p-test{
-    padding-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 10px;
     font-size: 18px;
 }
 
@@ -134,9 +146,6 @@ p span{
     font-weight: 700;
 }
 
-.img-square:hover{
-    opacity: 0.6;
-}
 
 .bgrey{
     background-color: rgb(88, 88, 91);
@@ -152,14 +161,91 @@ p span{
 .borang{
     background-color: rgb(246, 138, 31);
     margin-top: 20px;
-    margin-bottom: 20px;
     padding-bottom: 10px;
     color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+.borang h1, .borang p {
+    padding-left: 50px;
+}
+
+.borang p{
+    font-size: 20px;
 }
 
 .foot{
     background-color: rgb(35, 31, 32);
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial;
 }
+
+footer{
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(35, 31, 32);
+    padding: 25px 0;
+}
+
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: orange;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+
+.fpad p {
+    font-size: 20px;
+}
+
+.fpad h1, .fpad p {
+    margin-left: 50px;
+}
+
+
 
 .we-pad{
     padding: 0px 0px 30px 0px;
